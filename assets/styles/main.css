@@ -2,7 +2,6 @@
 @import url("atoms.css");
 @import url("components.css");
 @import url("responsive.css");
-@import url("animation.css");
 
 :root {
   scroll-behavior: smooth;
@@ -198,3 +197,4 @@ section:not(:first-of-type, .testimonials-section) {
     rotate: 0deg;
   }
 }
+
