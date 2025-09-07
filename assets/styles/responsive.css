@@ -258,6 +258,18 @@
     gap: var(--space-5);
   }
 
+ .form-element {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .cta-section {
+    padding: 1.5rem !important;
+  }
+
+  
   .featured .container .logos img {
     height: 3em;
     object-fit: contain;
@@ -291,3 +303,4 @@
     gap: var(--space-4);
   }
 }
+
