@@ -116,7 +116,7 @@ body {
   font-weight: 400;
 }
 
-html {
+html, body, :root {
 overflow-x: hidden !important;
 }
 
@@ -202,5 +202,6 @@ section:not(:first-of-type, .testimonials-section) {
     rotate: 0deg;
   }
 }
+
 
 
