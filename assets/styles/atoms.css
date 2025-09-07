@@ -1,0 +1,201 @@
+h1 {
+  font-size: var(--fs-heading-1);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: var(--fs-heading-2);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: var(--fs-heading-3);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+.display-large {
+  font-size: var(--fs-10);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+.display-1 {
+  font-size: var(--fs-heading-1);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+.display-2 {
+  font-size: var(--fs-heading-2);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+}
+
+.display-3 {
+  font-size: var(--fs-heading-3);
+  color: var(--color-text-dark);
+  letter-spacing: -0.5px;
+  margin-bottom: var(--space-5);
+}
+
+.btn {
+  font-weight: var(--fw-bold);
+  display: inline-block;
+  background: var(--color-primary);
+  padding: var(--space-4) var(--space-5);
+  font-size: var(--fs-5);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all var(--fluid-timing) ease-in-out;
+}
+
+.btn:link,
+.btn-visited {
+  font-weight: var(--fw-bold);
+  display: inline-block;
+  background: var(--color-primary);
+  padding: var(--space-4) var(--space-5);
+  font-size: var(--fs-5);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all var(--fluid-timing) ease-in-out;
+}
+
+.btn.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-text);
+}
+
+.btn.btn-primary-nbg:link,
+.btn.btn-primary-nbg:visited {
+  color: var(--color-text-dark);
+  background: none;
+  display: flex;
+  gap: 10px;
+}
+
+.btn.btn-primary-nbg:hover,
+.btn.btn-primary-nbg:active {
+  gap: 20px;
+}
+
+.btn.btn-secondary {
+  outline: 3px solid none;
+  outline-offset: -3px;
+  outline-color: var(--color-text);
+  background: var(--color-text);
+  color: var(--color-text-dark);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: var(--color-primary-shade);
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  outline: 3px solid var(--color-text-dark);
+  border: none;
+  outline-offset: -3px;
+}
+
+.nav-link:visited,
+.nav-link:link {
+  font-size: var(--fs-5);
+  transition: all var(--fluid-timing) ease;
+  text-decoration: none;
+  color: var(--color-text-dark);
+  font-weight: var(--fw-bold);
+}
+
+.nav-link:active,
+.nav-link:hover {
+  text-decoration: none;
+  color: var(--color-primary-shade);
+  font-weight: var(--fw-bold);
+}
+
+.nav-link.nav-link-cta:link,
+.nav-link.nav-link-cta:visited {
+  width: fit-content;
+  transition: all var(--fluid-timing) ease;
+  background-color: var(--color-primary);
+  padding: var(--space-3) var(--space-5);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+}
+
+.nav-link.nav-link-cta:hover,
+.nav-link.nav-link-cta:active {
+  background-color: var(--color-primary-shade);
+  padding: var(--space-3) var(--space-5);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+}
+
+.subheading {
+  font-size: var(--fs-5);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+
+.step {
+  font-weight: var(--fw-bold);
+  color: var(--color-gray);
+}
+
+.tag {
+  font-size: var(--fs-3);
+  padding: var(--space-2) var(--space-4);
+  background: #dbfc71;
+  border-radius: var(--radius-pill);
+  width: auto;
+  font-weight: var(--fw-bold);
+}
+
+.tag.paleo {
+  background: #fce271;
+}
+
+input,
+select,
+::placeholder {
+  border-radius: var(--radius-md);
+  outline: none;
+  border: none;
+  margin: 0;
+  font-size: var(--fs-4);
+  color: var(--color-primary-darker-shade);
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--fs-6);
+  background: var(--color-primary-tint);
+}
+
+::placeholder {
+  padding-left: 0 !important;
+}
+
+button.menu-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--fs-8);
+}
+
+button.menu-icon ion-icon {
+  color: var(--color-text-dark);
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon ion-icon[name="close-outline"] {
+  display: none;
+}
